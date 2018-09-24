@@ -14,7 +14,9 @@ const multiply = (x, y) => x * y
 
 const divide = (x, y) => x / y
 
+const percent = (x, y) => (x/100) * y
+
 export default {
-        add, subtract, multiply, divide
+        add, subtract, multiply, divide, percent,
     }
 

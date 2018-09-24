@@ -180,6 +180,15 @@ describe('Calculator', () => {
     assert.equal(result, 10)
   })
 
+  it('Find the percent of a number', () => {
+    const x = 60
+    const y = 20
+
+    const result = Calculator.percent(x, y)
+
+    assert.equal(result, 12)
+  })
+
     // Testing for over exposure from the src/index.js file.
   // The js file doens't export the add function by default, and we must make it export in the export default
   // Use this test when you have developers that over expose things, "Protect the privates"
